@@ -1,0 +1,55 @@
+.Recipe_Grid_1{
+display:grid;
+
+grid-template-columns: 1fr  ;
+@apply gap-4;
+}
+.Recipe_Grid_1_subgrid{
+    display:grid;
+    grid-template-columns: 1fr ;
+    
+
+}
+
+@media (min-width: 360px) {
+   
+  
+    .Recipe_Grid_1_subgrid{
+        display:grid;
+        grid-template-columns: repeat(2,1fr) ;
+        
+    
+    }
+
+}
+@media (min-width: 768px) {
+   
+  
+    .Recipe_Grid_1{
+        display:grid;
+        
+        grid-template-columns: 1fr 3fr  ;
+        
+    
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+    .Recipe_Grid_1{
+        display:grid;
+        
+        grid-template-columns: .8fr 3.5fr  ;
+        
+    
+    }
+
+    .Recipe_Grid_1_subgrid{
+        display:grid;
+        grid-template-columns: repeat(3,1fr) ;
+    
+    }
+  
+  
+}

@@ -1,0 +1,29 @@
+.Img_About{
+    @apply w-full;
+}
+.about_Grid{
+    display:grid;
+    grid-template-columns:1fr ;
+}
+
+@media (min-width:640px){
+    .Img_About{
+        width:950px;
+        max-height:600px;
+    }
+    
+}
+@media (min-width:768px){
+    .about_Grid{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+ 
+    }
+}
+@media (min-width:1024px){
+    .about_Grid{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+ 
+    }
+}

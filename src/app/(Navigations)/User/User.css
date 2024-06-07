@@ -1,0 +1,43 @@
+.grid_Section{
+    
+    display:grid;
+    grid-template-columns: 1fr ;
+    
+}
+.userModel{
+    background:rgba(0,0,0,.5)
+    
+}
+.Modal_Post{
+    width:800px;
+    
+}
+.Modal_Grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+}
+/* Width Customization */
+@media (min-width: 640px) {
+   
+ 
+     .grid_Section{
+    
+        display:grid;
+        grid-template-columns: 1fr 1fr ;
+    
+    }
+  
+}
+
+
+@media (min-width: 1024px) {
+  
+    .grid_Section{
+    
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        
+    }
+  
+  
+}

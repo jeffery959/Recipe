@@ -1,0 +1,35 @@
+.SingleItem_Grid_1{
+    display:grid;
+    grid-template-columns:1fr ;
+    
+    
+}
+.Ingredient_Grid{
+    display:flex;
+    @apply justify-between flex
+    
+}
+.SingleItem_Grid_1-ImgFrame{
+    max-height:540px;
+}
+li{
+    @apply mb-2
+}
+@media (min-width: 768px) {
+    .Ingredient_Grid{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+    
+    }
+    .SingleItem_Grid_1{
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        max-height:520px;
+        
+    }
+    
+  
+   
+        
+    
+}

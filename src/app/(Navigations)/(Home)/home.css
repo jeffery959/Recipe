@@ -1,0 +1,111 @@
+.Row_Grid_1{
+    display:grid;
+    grid-template-columns: 1fr 0fr;
+    height:520px;
+    
+    
+    
+}
+.Img_Contain{
+    height:520px;
+    
+}
+.Img_Contain{
+    @apply absolute left-0 top-0 sm:relative sm:rounded-none
+    
+}
+.grid_Section{
+    
+    display:grid;
+    grid-template-columns: 1fr ;
+    
+}
+.Row_Grid_1,.Row_Grid_2,.Row_Grid_4 ,.Row_Grid_5{
+    @apply px-2 sm:px-8   md:px-8 lg:px-24 2xl:px-64
+}
+.Row_Grid_3{
+    display:grid;
+    grid-template-columns: 1fr 1fr  ;
+
+}
+.Row_Grid_4 {
+    
+    display:grid;
+    grid-template-columns: 1fr;
+    
+    
+}
+.Row_Grid_5{
+    
+    display:grid;
+    grid-template-columns: 1fr;
+}
+/* SinglePoplar Sectiom */
+
+
+.text_area{
+    max-width:400px;
+    
+
+}
+
+/* Width Customization */
+@media (min-width: 640px) {
+   
+  
+    .Row_Grid_4 {
+    
+        display:grid;
+        grid-template-columns:1.3fr 1fr;
+        
+    
+}
+    .Row_Grid_1{
+        display:grid;
+        grid-template-columns: 1fr 1.3fr;
+        height:520px;
+        
+        
+        
+    }
+     .grid_Section{
+    
+        display:grid;
+        grid-template-columns: 1fr 1fr ;
+    
+    }
+    .Row_Grid_3{
+        grid-template-columns:repeat(3,1fr);
+        
+    }
+  
+}
+
+.KTT_Img{
+    max-height:600px;
+}
+@media (min-width: 768px) {
+  
+    .Row_Grid_5{
+    
+        display:grid;
+        grid-template-columns: 2fr 1fr;
+    }
+  
+  
+}
+@media (min-width: 1024px) {
+  
+    .grid_Section{
+    
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        
+    }
+    .Row_Grid_3{
+        grid-template-columns:repeat(6,1fr);
+        
+    }
+  
+  
+}

@@ -1,0 +1,29 @@
+
+.Frame_auth{
+    height:400px;
+    @apply bg-white rounded-xl w-10/12
+}
+.Login-Img{
+    @apply relative -top-80
+}
+@media (min-width:768px){
+    .Frame_auth{
+        width:600px;
+        height:400px;
+        @apply bg-white rounded-xl
+    }
+    
+
+}
+@media (min-width:1024px){
+    .Frame_auth{
+        width:70%;
+        max-width:900px;
+        height:450px;
+        @apply bg-white rounded-xl
+    }
+    .Login-Img{
+        @apply relative -top-96
+    }
+
+}
