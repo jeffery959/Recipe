@@ -50,7 +50,7 @@ const AboutUs = () => {
         <h4 className='w-full  text-center text-2xl md:text-3xl 
          font-semibold mb-10 text-Gray-Bold'>Still got questions?</h4>
   
-        <p className='py-5 text-center w-full font-semibold text-Gray-SubBold'>Got questions? Don't worry, we've got answers! Whether you need recipe suggestions, cooking tips, or just want to chat about all things food, our team is here for you. Drop us a line anytime, and we'll do our best to assist you on your culinary journey. Let's cook up something delicious together!</p>
+        <p className='py-5 text-center w-full font-semibold text-Gray-SubBold'>Got questions? Don&#39;t worry, we&#39;ve got answers! Whether you need recipe suggestions, cooking tips, or just want to chat about all things food, our team is here for you. Drop us a line anytime, and we&#39;ll do our best to assist you on your culinary journey. Let&#39;s cook up something delicious together!</p>
         <Link href={'http://localhost:3000/Contact'} className='border-primary text-primary py-2 px-4 border w-40 rounded-sm mt-2 hover:shadow-lg flex justify-center duration-200'>Contact Us</Link>
 
       </div>
