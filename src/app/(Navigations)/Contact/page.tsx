@@ -3,7 +3,8 @@ import {useState} from 'react'
 import Image from 'next/image'
 import './contact.css'
 import { Toaster,toast } from 'react-hot-toast'
-import { handleUserValue } from '../../../../Jeffery-Library/react'
+import { handleUserValue } from '../../../Jeffery-Library/react'
+
 const Contact = () => {
   
   const [contactInfo,setcontactInfo] = useState({FirstName:"",LastName:"",Message:""})

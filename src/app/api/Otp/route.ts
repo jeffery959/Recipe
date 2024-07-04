@@ -2,7 +2,7 @@ import { NextResponse } from "next/server"
 import User from "../Schema/User"
 import UserOtpVerification from "../Schema/UserOtp"
 import bcrypt from 'bcryptjs'
-import { sendVerificationCode } from "../../../../Jeffery-Library/next_backend"
+import { sendVerificationCode } from "../../../Jeffery-Library/next_backend"
 import mongoose from "mongoose"
 import connectDB from "../db"
 

@@ -1,7 +1,7 @@
 "use client"
 import {useState} from 'react'
 import Image from "next/image"
-import {formatTimeDifference} from "../../../Jeffery-Library/react"
+import {formatTimeDifference} from "../../Jeffery-Library/react"
 import {Tooltip} from "@nextui-org/tooltip";
 import { useRouter,usePathname } from 'next/navigation'
 import { DeleteModal } from "../(Navigations)/User/DeleteModal";

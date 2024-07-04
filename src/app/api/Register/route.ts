@@ -5,7 +5,7 @@ import { NextRequest,NextResponse } from "next/server"
 import { Peddana } from "next/font/google";
 import bycrpt from 'bcryptjs'
 import connectDB from "../db";
-import { RandomColorGenerator } from "../../../../Jeffery-Library/Vanilla";
+import { RandomColorGenerator } from "../../../Jeffery-Library/Vanilla";
 connectDB()
 export async function POST(request:Request) {
    try {

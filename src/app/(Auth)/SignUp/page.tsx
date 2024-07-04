@@ -6,7 +6,7 @@ import '../auth.css'
 import {useState} from "react"
 import toast,{Toaster} from 'react-hot-toast'
 import axios from 'axios'
-import { handleUserValue } from '../../../../Jeffery-Library/react'
+import { handleUserValue } from '../../../Jeffery-Library/react'
 const SignUp = () => {
   const router = useRouter()
   const [user,setUser]=useState({FirstName:'',LastName:'',Email:"",Password:""})

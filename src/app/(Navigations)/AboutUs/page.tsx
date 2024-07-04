@@ -5,7 +5,7 @@ import './about.css'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import IconButton from '@mui/material/IconButton';
 import {useState} from 'react'
-import { toggleEvent } from '../../../../Jeffery-Library/react';
+import { toggleEvent } from '../../../Jeffery-Library/react';
 import Link from 'next/link';
 const AboutUs = () => {
   return (

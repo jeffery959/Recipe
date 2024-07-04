@@ -11,7 +11,7 @@ import SwiperCore from 'swiper';
 import 'swiper/swiper-bundle.css';
 import Image from "next/image";
 import { useGlobalContext } from '@/app/Context/store';
-import { handleUserValue } from '../../../../Jeffery-Library/react';
+import { handleUserValue } from '../../../Jeffery-Library/react';
 import { Toaster,toast } from 'react-hot-toast';
 import { useRouter } from 'next/navigation';
 

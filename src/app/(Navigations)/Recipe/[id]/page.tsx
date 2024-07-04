@@ -6,9 +6,9 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import { useParams } from 'next/navigation'
 import { useGlobalContext } from '@/app/Context/store';
 import Loading from '@/app/Components/Loading';
-import { formatTimeDifference } from '../../../../../Jeffery-Library/react';
+import { formatTimeDifference } from '../../../../Jeffery-Library/react';
 import { timeStamp } from 'console';
-const page = () => {
+const Page = () => {
    const {id}= useParams()
    const {recipeList,isLoading,setisLoading}:any= useGlobalContext()
    const [SingleItem,setSingleItm]=useState(recipeList.filter((itm:any)=>itm._id===id)[0])
@@ -97,4 +97,4 @@ const page = () => {
         <Image src={'/Icons/Saved.svg'} width={16} height={16} alt='' className='ml-2 cursor-pointer'/>
 
         </div> */
-export default page
+export default Page

@@ -3,7 +3,7 @@ import React,{useState} from 'react'
 import CloseIcon from '@mui/icons-material/Close';
 import { IconButton } from '@mui/material';
 import Image from 'next/image';
-import { handleFileUpload, handleUserValue } from '../../../../Jeffery-Library/react';
+import { handleFileUpload, handleUserValue } from '../../../Jeffery-Library/react';
 import toast, { Toaster } from 'react-hot-toast';
 import axios from 'axios';
 import { getCookie } from 'cookies-next';
