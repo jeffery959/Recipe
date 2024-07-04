@@ -115,8 +115,8 @@ setItems({...items,Category:name})
      <h3 className='font-medium text-gray-500 mt-3'>Category</h3>
      <div className='flex w-full justify-start gap-5 mt-4'>
            {
-            Categories.map((itm)=>{
-              return <Chips toggle={Toggle} name={itm.name} active={itm.active}/>
+            Categories.map((itm,key)=>{
+              return <Chips key={key} toggle={Toggle} name={itm.name} active={itm.active}/>
             })
            }
      </div>

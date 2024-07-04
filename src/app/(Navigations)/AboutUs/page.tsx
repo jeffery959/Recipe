@@ -13,7 +13,7 @@ const AboutUs = () => {
       <div className='w-full px-2 sm:px-8 md:px-8 lg:px-24 2xl:px-64'>
         <h4 className='w-full  text-center text-2xl md:text-3xl 
          font-semibold mb-10 text-Gray-Bold'>AboutUs</h4>
-        <p className='text-center w-full font-semibold text-Gray-SubBold py-5'>Welcome to our recipe haven! Here at Reciepe, we're passionate about all things culinary. Our mission is simple: to inspire and empower you to create delicious dishes in your own kitchen.Let's savor every bite and make every meal a memorable experience! </p>
+        <p className='text-center w-full font-semibold text-Gray-SubBold py-5'>Welcome to our recipe haven! Here at Reciepe, we&#39;re passionate about all things culinary. Our mission is simple: to inspire and empower you to create delicious dishes in your own kitchen.Let&#39;s savor every bite and make every meal a memorable experience! </p>
         <div className='w-full flex justify-center mt-5'>
 
         <Image src={'/Images/FemaleBaker.jpg'} width={500} height={400} alt="" className='Img_About object-cover rounded-lg'/>

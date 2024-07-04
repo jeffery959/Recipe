@@ -23,7 +23,7 @@ const Contact = () => {
   <Image src={"/Images/ContactUs_bg.jpg"} width={800} height={800} alt='' className='min-h-96 w-full Img_Container h-1/2 object-cover 0 -z-10'/>
   <div className='pt-24 absolute top-0  sm:pt-44 lg:pt-60 w-full px-2 sm:px-8  min-h-96 md:px-8 lg:px-24 2xl:px-64 Img_Container '>
   <h3 className='z-40  font-bold text-white w-full text-center text-2xl md:text-3xl'>ContactUs</h3>
-  <p className='w-full text-white font-semibold text-center mt-4 '>Got questions? Don't worry, we've got answers! Whether you need recipe suggestions, cooking tips, or just want to chat about all things food, our team is here for you. Drop us a line anytime, and we'll do our best to assist you on your culinary journey. Let's cook up something delicious together</p>
+  <p className='w-full text-white font-semibold text-center mt-4 '>Got questions? Don&#39;t worry, we&#39;ve got answers! Whether you need recipe suggestions, cooking tips, or just want to chat about all things food, our team is here for you. Drop us a line anytime, and we&#39;ll do our best to assist you on your culinary journey. Let&#39;s cook up something delicious together</p>
 
   </div>
   <div className='px-2 sm:px-8   md:px-8 lg:px-24 2xl:px-64 w-full flex items-center justify-center flex-col '>
