@@ -40,14 +40,6 @@ const ShrtName=logedUser?.FirstName?.split('')[0]+logedUser?.LastName?.split('')
   
     }
     useEffect(()=>{
-      const getString=localStorage.getItem('Login')
-      const getUser=localStorage.getItem('User')
-      const newlogedUser = JSON.parse(getUser!)
-      const newlogin=JSON.parse(getString!)
-      setLogIn(newlogin)
-      setlogedUser(newlogedUser)
-    },[])
-    useEffect(()=>{
 const token = getCookie("token")
       if(!token){
 
@@ -64,6 +56,14 @@ const token = getCookie("token")
       
   
     })
+    useEffect(()=>{
+      const getString=localStorage.getItem('Login')
+      const getUser=localStorage.getItem('User')
+      const newlogedUser = JSON.parse(getUser!)
+      const newlogin=JSON.parse(getString!)
+      setLogIn(newlogin)
+      setlogedUser(newlogedUser)
+    },[])
     const router = useRouter()
   return (
 

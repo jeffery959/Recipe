@@ -29,6 +29,7 @@ cookies().set('token',token, { secure: true })
     return NextResponse.json({msg:"Login Successfull",user},{status:200})
     //Give User Accesss
 } catch (error) {
+    console.log(error)
         return NextResponse.json({msg:"failed"},{status:400})
         
     }

@@ -85,7 +85,7 @@ export default function Home() {
         </div>
         <div className="w-full Img_Contain ">
 
-        <Image src={'/Images/Pancakes.jpg'} width={600} height={600}  className="w-full object-cover h-full sm:rounded-2xl " alt="" />
+        <Image src={'/Images/Pancakes.jpg'} width={400} height={400}  className="w-full object-cover h-full sm:rounded-2xl " alt="" />
 
 
         </div>
